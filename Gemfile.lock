@@ -28,7 +28,7 @@ GIT
 
 GIT
   remote: https://github.com/rails/rails.git
-  revision: c837883cfcf880ac7a96223545b0cf4fac2986e0
+  revision: 9f232376a926e447903fbbfde5c28d8985b81f86
   branch: 7-0-stable
   specs:
     actioncable (7.0.0)
@@ -314,7 +314,7 @@ GEM
       rack
     orm_adapter (0.5.0)
     parallel (1.21.0)
-    parser (3.0.3.2)
+    parser (3.1.0.0)
       ast (~> 2.4.1)
     pg (1.2.3)
     popper_js (2.9.3)

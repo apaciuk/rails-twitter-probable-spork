@@ -9,6 +9,7 @@ class User < ApplicationRecord
   validates :username, presence: true
   has_one_attached :avatar
   has_person_name
+  has_many :tweets
 
   has_many :notifications, as: :recipient
   has_many :services
